@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.graalvm.buildtools",
+    "module": "native-maven-plugin",
+    "version": "0.9.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "native-maven-plugin-0.9.7.1.jar",
+          "url": "native-maven-plugin-0.9.7.1.jar",
+          "size": 34646,
+          "sha512": "9ad164604c797493293958cba14bf1d1969871683925419b254157a17c1ffda060f1ba965941142c8a0cf45fb8db2b8549facfa7d8579227e1162ab891499c1d",
+          "sha256": "cfbedc04b99ffb5144f255c5ef26d9e2ffcfd43d45bc03168d5311f5a277421b",
+          "sha1": "01153b8adcb97a74bb83f659c85ead9b667c045c",
+          "md5": "343ef232f6592294b021b2b34ecdd220"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.graalvm.buildtools",
+          "module": "junit-platform-native",
+          "version": {
+            "requires": "0.9.7.1"
+          }
+        },
+        {
+          "group": "org.graalvm.buildtools",
+          "module": "utils",
+          "version": {
+            "requires": "0.9.7.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native-maven-plugin-0.9.7.1.jar",
+          "url": "native-maven-plugin-0.9.7.1.jar",
+          "size": 34646,
+          "sha512": "9ad164604c797493293958cba14bf1d1969871683925419b254157a17c1ffda060f1ba965941142c8a0cf45fb8db2b8549facfa7d8579227e1162ab891499c1d",
+          "sha256": "cfbedc04b99ffb5144f255c5ef26d9e2ffcfd43d45bc03168d5311f5a277421b",
+          "sha1": "01153b8adcb97a74bb83f659c85ead9b667c045c",
+          "md5": "343ef232f6592294b021b2b34ecdd220"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-maven-plugin-0.9.7.1-javadoc.jar",
+          "url": "native-maven-plugin-0.9.7.1-javadoc.jar",
+          "size": 422180,
+          "sha512": "fa68d33cb467d91d1d96a753ec8323e37e5d40130ed53c7c9a4c64ae8ae4dd6fc71d423801cd3615b50bfbef6e755c8473a7146c82ba0cbb475d1e518da4da53",
+          "sha256": "e8f14f5ae4fa2edcc9cd13dd9a5306faf668f8b9a66ee32fecd65bb068ef9a0a",
+          "sha1": "7077e8fbb6779b0a9efe7cf6ffa2e65cf1d60ac1",
+          "md5": "01d0efe3f8c2468769340a1047b6406b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-maven-plugin-0.9.7.1-sources.jar",
+          "url": "native-maven-plugin-0.9.7.1-sources.jar",
+          "size": 23442,
+          "sha512": "58d745d0b892ed2636f5594cca5052ffd31a59ced0842407b11d2c96e75b331fc25f404014da60dac5c76b15f7a0a24cc00ac54bc943726f33866168ec1f5ec9",
+          "sha256": "64783a8fbea56887a4efe4fc21ccf2dc64d06541ec559045eba480373bc81484",
+          "sha1": "20fca495d4c5a81a4b15baed1b80a97f0d94e745",
+          "md5": "f15a44c4976de4763d43cde223a5f427"
+        }
+      ]
+    }
+  ]
+}
